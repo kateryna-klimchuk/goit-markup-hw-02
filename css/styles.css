@@ -1,0 +1,109 @@
+body {
+    color: #212121;
+    background-color: #FFFFFF;
+}
+/* header */
+.logo-blue {
+    color: #2196F3;
+}
+.logo-black {
+    color: #000000;
+}
+.header-link a {
+    color: #212121;
+    list-style: none;
+    text-decoration: none;
+}
+.header-address a {
+    color: #757575;
+    list-style: none;
+    text-decoration: none;
+}
+.header-link, .header-address {
+    list-style: none;
+}
+.header-link .link:hover, .header-link .link:focus {
+    color: #2196F3;
+}
+.header-address .link:hover,.header-address .link:focus {
+    color: #2196F3;
+}
+
+/* main page banner */
+
+.banner-text {
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+.banner-button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.info-list {
+    list-style: none;
+}
+.info-text {
+    color: #757575;
+}
+
+/* what we do */
+
+.work-list {
+    list-style: none;
+}
+
+/* our team */
+
+.team-list {
+    list-style: none;
+}
+.team-position {
+    color: #757575;
+}
+
+
+/* footer */
+
+.footer-address {
+    list-style: none;
+}
+
+.footer-address .link:hover, .footer-address .link:focus {
+    color: #2196F3;
+}
+.footer-address a {
+    text-decoration: none;
+}
+
+
+
+
+/* portfolio main */
+
+.portfolio-button {
+    background-color: #F5F4FA;
+    cursor: pointer;
+    list-style: none;
+}
+.portfolio-button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* Our projects */
+
+.our-project {
+    list-style: none;
+}
+.product {
+    color: #757575;
+}
+
+
+/* color */
+/* logo black 000000 
+main black 212121
+accent blue 2196F3 
+grey 757575
+main white FFFFFF
+Color mail&tel in footer rgba(255, 255, 255, 0.6)*/
