@@ -1,10 +1,21 @@
 body {
     color: #212121;
     background-color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 /* header */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
 .logo-blue {
     color: #2196F3;
+    
 }
 .logo-black {
     color: #000000;
@@ -14,6 +25,9 @@ body {
     list-style: none;
     text-decoration: none;
 }
+.header-link, .link.current {
+    color: #2196F3;
+}
 .header-address a {
     color: #757575;
     list-style: none;
@@ -21,6 +35,10 @@ body {
 }
 .header-link, .header-address {
     list-style: none;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .header-link .link:hover, .header-link .link:focus {
     color: #2196F3;
@@ -30,14 +48,28 @@ body {
 }
 
 /* main page banner */
-
+.banner {
+    letter-spacing: 0.06em;
+}
 .banner-text {
     color: #FFFFFF;
     background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
 }
 .banner-button {
     color: #FFFFFF;
     background-color: #2196F3;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 .info-list {
     list-style: none;
@@ -66,6 +98,7 @@ body {
 
 .footer-address {
     list-style: none;
+    text-decoration: none;
 }
 
 .footer-address .link:hover, .footer-address .link:focus {
@@ -79,11 +112,12 @@ body {
 
 
 /* portfolio main */
-
+.portfolio-nav {
+    list-style: none;
+}
 .portfolio-button {
     background-color: #F5F4FA;
     cursor: pointer;
-    list-style: none;
 }
 .portfolio-button:hover {
     color: #FFFFFF;
@@ -98,7 +132,9 @@ body {
 .product {
     color: #757575;
 }
-
+.our-project h2 {
+    letter-spacing: 0.06em;
+}
 
 /* color */
 /* logo black 000000 
