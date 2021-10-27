@@ -4,6 +4,7 @@
     --main-white: #ffffff;
     --blue-accent: #2196F3;
     --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
+    --main-background-color: #2F303A;
 }
 
 body {
@@ -56,11 +57,11 @@ body {
 
 /* main page banner */
 .banner {
+    background-color: var(--main-background-color);
     letter-spacing: 0.06em;
 }
 .banner-text {
     color: var(--main-white);
-    background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -77,6 +78,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
 .info-list {
     list-style: none;
@@ -100,7 +102,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-        text-align: center;
+    text-align: center;
 }
 .work-list {
     list-style: none;
@@ -149,18 +151,18 @@ body {
 .link.address {
     font-size: 14px;
     line-height: 1.71;
-    color: #FFFFFF;
+    color: var(--main-white);
 }
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--main-background-color);
 }
 
 
 /* portfolio main */
 
 .port-title {
-    color: white;
+    color: var(--main-white);
 }
 .portfolio-nav {
     list-style: none;
